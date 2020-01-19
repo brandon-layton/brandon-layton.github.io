@@ -1,0 +1,24 @@
+.site-pic {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    place-items: center;
+    margin: 0%;
+    padding: 0%;    
+}
+
+.topic {
+    background-color: #d3d3d3;
+    text-align: center;
+    border: black;
+    border-style: solid;
+    width: 90%;
+    height: 95%;
+    padding: 10px;
+}
