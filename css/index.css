@@ -4,6 +4,12 @@
 /* 1.1 Normalize Import */  
 @import url('normalize.css');
 
+/*change all fonts*/
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* universal page style */
 body {
     margin: 0;
     background-color: #fff3d3;
@@ -45,7 +51,6 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 52px;
 }
 
 footer p {
