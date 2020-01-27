@@ -10,8 +10,6 @@ body {
     color: #031927;
 }
 
-
-
 header {
     background-color: #a6a6a8;
     padding: 1px;
@@ -35,10 +33,30 @@ a {
     text-decoration: none;
 }
 
-h2, h3 {
+h2 {
+    font-size: 30px;
+}
+
+h3 {
     font-size: 25px;
 }
 
+main {
+    padding-bottom: 50px;
+}
+
+article > p {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    margin: 5px;
+    padding: 0;
+}
+
+.descriptor {
+    font-weight: bold;
+}
 
 footer {
     position: relative;

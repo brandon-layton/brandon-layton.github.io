@@ -1,0 +1,27 @@
+.color-ex {
+    border: black;
+    border-style: solid;
+    color: red;
+    text-align: center;
+    padding: 25px;
+}
+
+#header-color {
+    background-color: #a6a6a8;
+}
+
+#background-color {
+    background-color: #cfdbd5;
+}
+
+#text-color {
+    background-color: #031927;
+}
+
+#link-color {
+    background-color: #0072ff;
+}
+
+#border-color {
+    background-color: #031927;
+}
