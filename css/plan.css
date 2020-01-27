@@ -1,0 +1,55 @@
+/* Imports */
+/* 1.1 Normalize Import */  
+@import url('normalize.css');
+
+/* universal page style */
+body {
+    margin: 0;
+    background-color: #cfdbd5;
+    font-family: 'Ubuntu', sans-serif;
+    color: #031927;
+}
+
+
+
+header {
+    background-color: #563d27;
+    padding: 1px;
+    padding-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #0072ff;
+    text-decoration: none;
+}
+
+main {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer {
+    position: relative;
+    margin-top: -50px;
+    /* negative value of footer height */
+    height: 50px;
+    clear: both;
+    background-color: #563d27;
+    text-align: center;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px;
+}

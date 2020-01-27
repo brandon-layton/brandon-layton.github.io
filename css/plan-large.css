@@ -1,0 +1,38 @@
+h1 {
+  font-size: 30pt;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  padding-right: 2em;
+}
+
+img {
+  height: 50px;
+  padding: 10px;
+}
+
+header {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 85px;
+}
+
+.nav-link {
+  padding: 25px;
+  border: #031927;
+  border-style: ridge;
+}
+
+.nav-link:hover {
+  background-color: #031927;
+}
+
+a {
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+article {
+  width: 40%;
+}
