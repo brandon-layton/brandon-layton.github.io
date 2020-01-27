@@ -1,0 +1,52 @@
+h1 {
+    font-size: 30pt;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+    
+  img {
+    height: 40px;
+    vertical-align: middle;
+  }
+    
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+    
+  .nav-link {
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+    width: 35vw;
+    border: #031927;
+    border-style: ridge;
+    text-align: center;
+    display: inline-block;
+  }
+    
+  .nav-link:hover {
+    background-color: #031927;
+  }
+    
+  a {
+    font-size: 1.1em;
+    text-decoration: none;
+  }
+
+main {
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    
+  article {
+    width: 900px;
+    display: inline-block;
+    margin: 10px;
+  }
