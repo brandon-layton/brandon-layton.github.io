@@ -80,6 +80,7 @@ footer {
     width: 90%;
     margin: auto;
     margin-bottom: 10px;
+    height: auto;
 }
 
 #temp {
@@ -107,6 +108,7 @@ footer {
 
 #feels-like {
     margin-top: -10px;
+    margin-bottom: 20px;
     font-size: 1em;
 }
 
@@ -128,4 +130,5 @@ footer {
 .tile {
     width: 32%;
     margin: 0;
+    height: 350px;
 }
