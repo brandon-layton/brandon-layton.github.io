@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Design | Brandon Layton</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Brandon Layton">
+    <meta name="description" content="Design principles document">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">      
+    <link rel="stylesheet" type="text/css" href="./css/default.css">
+    <link rel="stylesheet" type="text/css" href="./css/small.css" media="(max-width: 699px)">
+    <link rel="stylesheet" type="text/css" href="./css/large.css" media="(max-width: 1199px) and (min-width: 700px)">
+    <link rel="stylesheet" type="text/css" href="./css/large.css" media="(min-width: 1200px)">
+  </head>
+  <body>
+    <header>
+        <img id="logo" id="inline-logo" src="/images/weather-icon.png" alt="cloud with snow">
+        <div id="title-bar" class="inline-logo">
+          <h1 id="title">Climate Check</h1>
+          <p id="tagline">Tagline Phrase</p>
+        </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="">Home</a></li>
+          <li><a class="nav-link" href="">Preston</a></li>
+          <li><a class="nav-link" href="">Soda Springs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="location-data">
+        <h2 id="location-name">Location Name</h2>
+        <p id="gps"><span class="bold">Gps: </span>42.543, 111.5231</p>
+      </div>
+      
+        <section id="weather-temps" class="tile">
+				  <p id="high"><span id="displayedHigh">58</span>&deg;F</p>
+          <p id="temp"><span id="displayedTemp">51</span>&deg;F</p>
+          <p id="low"><span id="displayedLow">34</span>&deg;F</p>
+          <p id="feels-like">Feels Like: <span id="feelTemp">49</span>&deg;F</p>
+          <p id="wind-speed"><span id="displayedWind">4.8</span>mph</p>
+          <p id="wind-gusts">Gusts: <span id="displayedGusts">8</span>mph</p>
+        </section>
+      
+      <div id="weather-details">
+
+      </div>
+    </main>
+    <footer>
+        <p class="copyr">&copy; <span id="currentyear"></span> | Brandon Layton | <a href=" https://developer.mozilla.org/en-US/">MDN documentation site</a> | BYU-Idaho</p>
+        <p class="last-update">Last Updated: <span id="modified"></span></p>
+    </footer>
+    <script src="/js/date.js"></script>
+ </body>
+</html>

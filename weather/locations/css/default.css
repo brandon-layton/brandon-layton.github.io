@@ -1,0 +1,76 @@
+/* Imports */
+/* 1.1 Normalize Import */  
+@import url('normalize.css');
+
+/* universal page style */
+html {
+    box-sizing: border-box;
+}
+   
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: #cfdbd5;
+    font-family: 'Ubuntu', sans-serif;
+    color: #031927;
+}
+
+header {
+    background-color: #a6a6a8;
+    display: inline-block;
+    font-weight: 600;
+    width: 100%;
+}
+
+
+
+nav ul li { 
+    display: inline-block; 
+    list-style: none; 
+}
+
+a {
+    color: #0072ff;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    margin: 5px;
+    padding: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#curWeather {
+    background-size: cover;
+}
+
+.tile {
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+footer {
+    background-color: #a6a6a8;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
