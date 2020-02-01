@@ -6,8 +6,29 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-evenly;
-    margin: .1em auto;
-    padding: 15px;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    
+    border: 1px solid;
+    border-color: #031927;
+    width: 100%;
+    line-height: 2.5em;
+    display: block;
+    margin: 0;
+}
+
+.nav-link {
+    color: inherit;
+}
+
+nav ul li:hover {
+    background-color: #031927;
+    color: #a6a6a8;
 }
 
 footer {
@@ -55,6 +76,12 @@ footer {
     width: 100%;
 }
 
+#weather-temps {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
 #temp {
     font-size: 6em;
     margin: 0em;
@@ -76,4 +103,29 @@ footer {
     font-size: 2.5em;
     position: relative;
     top: -.7em;
+}
+
+#feels-like {
+    margin-top: -10px;
+    font-size: 1em;
+}
+
+.wind {
+    display: inline;
+    font-size: 1.5em;
+    margin: 2em;
+}
+
+#weather-details {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: auto;
+}
+
+.tile {
+    width: 32%;
+    margin: 0;
 }
