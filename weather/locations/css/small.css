@@ -23,6 +23,10 @@
     margin: 0;
 }
 
+header {
+    border-bottom: 1px solid;
+}
+
 #location-data {
     padding: 10px;
     padding-left: 30px;
@@ -34,6 +38,10 @@
 
 #gps {
     margin: 0;
+}
+
+.tile {
+    width: 90%;
 }
 
 #weather-temps {
@@ -77,18 +85,24 @@ h3 {
     display: none;
 }
 
+footer {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
 .small-footer {
     margin-bottom: 30px;
 }
 
 .large-footer {
-    margin-bottom: 115px;
+    margin-bottom: 108px;
 }
 
 nav ul li {
     background-color: #a6a6a8;
     line-height: 25px;
     border: 1px solid;
+    border-bottom: unset;
 }
 
 nav ul {

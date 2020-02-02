@@ -5,6 +5,7 @@
 /* universal page style */
 html {
     box-sizing: border-box;
+    background-color: #cfdbd5;
 }
    
 *, *:before, *:after {
@@ -13,7 +14,6 @@ html {
 
 body {
     margin: 0;
-    background-color: #cfdbd5;
     font-family: 'Ubuntu', sans-serif;
     color: #031927;
 }
@@ -62,6 +62,7 @@ p {
 footer {
     background-color: #a6a6a8;
     text-align: center;
+    margin: 0;
 }
 
 footer p {
