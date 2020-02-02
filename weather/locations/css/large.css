@@ -1,6 +1,5 @@
-body {
-    width: 1200px;
-    border: 1px solid;
+main, footer {
+    width: 1300px;
     margin: auto;
 }
 
@@ -10,28 +9,29 @@ nav ul li:last-child {
 
 nav {
     text-align: center;
+    margin: auto;
+    margin-top: 20px;
     width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 nav ul {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 1300px;
     padding: 0;
-    margin-bottom: 0;
+    margin: auto;
     list-style-type: none;
 }
 
 nav ul li {
-    
-    border: 1px solid;
-    border-color: #031927;
-    width: 100%;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    width: 33.33%;
     line-height: 2.5em;
     display: block;
-    margin: 0;
-    margin-left: -1px;
-    margin-right: -1px;
+    margin: -1px;
 }
 
 #preston-link {
@@ -73,7 +73,7 @@ nav ul li:hover {
 
 #location-name {
     font-size: 2.3em;
-    margin-top: 3px;
+    margin-top: 20px;
     margin-bottom: 3px;
     width: 100%;
 }
@@ -82,10 +82,11 @@ nav ul li:hover {
     font-size: 1em;
     margin: 3px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 #weather-temps {
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-bottom: 10px;
     height: auto;
@@ -149,5 +150,4 @@ footer {
     bottom: 0;
     height: 3em;
     border: 1px solid;
-    margin: -1pt;
 }

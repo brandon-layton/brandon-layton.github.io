@@ -4,7 +4,11 @@ nav ul li:last-child {
 
 nav {
     text-align: center;
+    margin: auto;
+    margin-top: 20px;
     width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 nav ul {
@@ -12,20 +16,17 @@ nav ul {
     justify-content: space-evenly;
     width: 100%;
     padding: 0;
-    margin-bottom: 0;
+    margin: auto;
     list-style-type: none;
 }
 
 nav ul li {
-    
-    border: 1px solid;
-    border-color: #031927;
-    width: 100%;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    width: 33.33%;
     line-height: 2.5em;
     display: block;
-    margin: 0;
-    margin-left: -1px;
-    margin-right: -1px;
+    margin: -1px;
 }
 
 #preston-link {
@@ -73,7 +74,7 @@ footer {
 
 #location-name {
     font-size: 2.3em;
-    margin-top: 3px;
+    margin-top: 20px;
     margin-bottom: 3px;
     width: 100%;
 }
@@ -81,11 +82,12 @@ footer {
 #gps {
     font-size: 1em;
     margin: 3px;
+    margin-bottom: 20px;
     width: 100%;
 }
 
 #weather-temps {
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-bottom: 10px;
     height: auto;
