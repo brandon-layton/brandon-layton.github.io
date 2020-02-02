@@ -1,0 +1,103 @@
+#logo {
+    padding-left: 20px;
+    height: 4em;
+    top: .6em;
+    position: relative;
+}
+
+.inline-logo {
+    display: inline-block;
+    margin-left: .5em;
+    padding-bottom: 15px;
+}
+
+#title {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0;
+}
+
+#tagline {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0;
+}
+
+#weather-temps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#temp {
+    font-size: 4em;
+    order: -1;
+    width: 100%;
+}
+
+#high {
+    color: red;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+#low {
+    color: royalblue;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+#wind-speed {
+    width: 100%;
+    font-size: 1.25em;
+}
+
+#feels-like {
+    display: none;
+}
+
+#wind-gusts {
+    display: none;
+}
+
+h3 {
+    display: none;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+nav ul li {
+    background-color: #a6a6a8;
+    line-height: 25px;
+    border: 1px solid;
+}
+
+nav ul {
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+#navbar {
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-link {
+    color: inherit;
+}
+
+.hidden ul li:not(:first-child) {
+    display: none;
+}
+
+.shown ul li {
+    display: unset;
+}

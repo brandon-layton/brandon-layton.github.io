@@ -15,13 +15,14 @@
   </head>
   <body>
     <header>
-        <img id="logo" id="inline-logo" src="/images/weather-icon.png" alt="cloud with snow">
+        <img id="logo" class="inline-logo" src="/images/weather-icon.png" alt="cloud with snow">
         <div id="title-bar" class="inline-logo">
           <h1 id="title">Climate Check</h1>
           <p id="tagline">Tagline Phrase</p>
         </div>
-      <nav class="nav-bar">
+      <nav id="navbar" class="hidden">
         <ul>
+          <li><a id="icon" class="nav-link" href="javascript:void(0);" onclick="resposiveMenu()">&#9776; Menu</a></li>
           <li><a class="nav-link" href="">Home</a></li>
           <li><a class="nav-link" href="">Preston</a></li>
           <li><a class="nav-link" href="">Soda Springs</a></li>
@@ -64,6 +65,7 @@
         <p class="copyr">&copy; <span id="currentyear"></span> | Brandon Layton | <a href=" https://developer.mozilla.org/en-US/">MDN documentation site</a> | BYU-Idaho</p>
         <p class="last-update">Last Updated: <span id="modified"></span></p>
     </footer>
-    <script src="/js/date.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/weather/locations/js/responsive-menu.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/date.js"></script>
  </body>
 </html>
