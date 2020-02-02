@@ -1,7 +1,7 @@
 #logo {
-    padding-left: 20px;
+    padding-left: 10px;
     height: 4em;
-    top: .6em;
+    top: .7em;
     position: relative;
 }
 
@@ -20,6 +20,19 @@
 #tagline {
     font-size: 1em;
     font-weight: 500;
+    margin: 0;
+}
+
+#location-data {
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#location-name {
+    margin: 0;
+}
+
+#gps {
     margin: 0;
 }
 
@@ -64,8 +77,12 @@ h3 {
     display: none;
 }
 
-footer {
+.small-footer {
     margin-bottom: 30px;
+}
+
+.large-footer {
+    margin-bottom: 115px;
 }
 
 nav ul li {
@@ -94,10 +111,12 @@ nav ul {
     color: inherit;
 }
 
-.hidden ul li:not(:first-child) {
+.hidden ul li:not(:last-child) {
     display: none;
 }
 
 .shown ul li {
-    display: unset;
+    display: block;
+    width: 100%;
+    /* background-color: ivory; */
 }
