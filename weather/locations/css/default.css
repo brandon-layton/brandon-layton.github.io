@@ -52,6 +52,10 @@ p {
     background-size: cover;
 }
 
+#temp {
+    font-weight: unset;
+}
+
 .tile {
     background-color: rgba(200,200,200,.6);
     margin: .2em auto;
