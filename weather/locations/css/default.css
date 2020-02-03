@@ -27,6 +27,8 @@ header {
 
 a {
     text-decoration: none;
+    font-weight: bold;
+    color: inherit;
 }
 
 h2 {
