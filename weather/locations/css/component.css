@@ -45,6 +45,7 @@
     border-radius: 90%;
     position: absolute;
     display: block;
+    z-index: 89;
   }
   
   .center {
@@ -143,6 +144,45 @@
   .i10 {
     transform:translate(-76.21px, -44px);
   }
+
+
+  .box {
+    background-color: rgba(200,200,200);
+    display: block;
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    border-radius: 90%;
+    transform:translate(-40px, -76.21px);
+  }
+  
+  .edge1 {
+    background-color: darkgray;
+    width: 25px;
+    height: 25px;
+    border-radius: 90%;
+    position: absolute;
+    display: block;
+    transform:translate(-6px, -87px);
+  }
+  
+  .edge2 {
+    background-color: darkgray;
+    width: 25px;
+    height: 25px;
+    border-radius: 90%;
+    position: absolute;
+    display: block;
+    transform:translate(-69.6px, -53px);
+  }
+
+.edge1-com {
+    transform:translate(-6px, -88px);
+}
+
+.edge2-com {
+    transform:translate(-69.6px, -53.7px);
+}
 
 .small-percent {
     font-size: .5em;
