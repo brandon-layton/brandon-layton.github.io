@@ -1,0 +1,154 @@
+.component{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: darkgray;
+    position: relative;
+    border-radius: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+      
+  .inner {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(200,200,200);
+    border-radius: 90%;
+    align-self: center;
+  }
+  
+  .outer {
+    position: absolute;
+    display: block;
+    margin: 0;
+    line-height: 25px;
+    width: 25px;
+    font-size: 1.6em;
+  }
+  
+  .ib {
+    position: absolute;
+    display: block;
+    margin: 0;
+    line-height: 25px;
+    width: 25px;
+  }
+  
+  .slider {
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 90%;
+    position: absolute;
+    display: block;
+  }
+  
+  .center {
+    position: absolute;
+    margin: auto;
+    display: block;
+    font-size: 40pt;
+    line-height: 50px;
+  }
+  
+  .o0 {
+    transform:translate(0px, -115px);
+  }
+  
+  .o1 {
+    transform:translate(60px, -103.92px);
+  }
+  
+  
+  .o2 {
+    transform:translate(103.92px, -60px);
+  }
+  
+  .o3 {
+    transform:translate(120px, 0px);
+  }
+  
+  .o4 {
+    transform:translate(103.92px, 60px);
+  }
+  
+  .o5 {
+    transform:translate(60px, 103.92px);
+  }
+  
+  .o6 {
+    transform:translate(0px, 115px);
+  }
+  
+  .o7 {
+    transform:translate(-65px, 103.92px);
+  }
+  
+  .o8 {
+    transform:translate(-108.92px, 60px);
+  }
+  
+  .o9 {
+    transform:translate(-125px, 0px);
+  }
+  
+  .o10 {
+    transform:translate(-108.92px, -60px);
+  }
+  
+  .i0 {
+    transform:translate(0px, -88px);
+  }
+  
+  .i1 {
+    transform:translate(43.75px, -75.78px);
+  }
+  
+  .i2 {
+    transform:translate(75.78px, -43.75px);
+  }
+  
+  .i3 {
+    transform:translate(87px, 0px);
+  }
+  
+  .i4 {
+    transform:translate(75.34px, 43.5px);
+  }
+  
+  .i5 {
+    transform:translate(43.5px, 75.34px);
+  }
+  
+  .i6 {
+    transform:translate(0px, 87px);
+  }
+  
+  .i7 {
+    transform:translate(-43.6px, 75.52px);
+  }
+  
+  .i8 {
+    transform:translate(-75.52px, 43.6px);
+  }
+  
+  .i9 {
+    transform:translate(-88px, 0px);
+  }
+  
+  .i10 {
+    transform:translate(-76.21px, -44px);
+  }
+
+.small-percent {
+    font-size: .5em;
+    margin-left: -.5em;
+}
+
+.moon {
+    position: absolute;
+}

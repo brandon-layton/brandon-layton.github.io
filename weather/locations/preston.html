@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">      
     <link rel="stylesheet" type="text/css" href="./css/default.css">
+    <link rel="stylesheet" type="text/css" href="./css/component.css">
     <link rel="stylesheet" type="text/css" href="./css/small.css" media="(max-width: 700px)">
     <link rel="stylesheet" type="text/css" href="./css/medium.css" media="(max-width: 1300px) and (min-width: 700px)">
     <link rel="stylesheet" type="text/css" href="./css/large.css" media="(min-width: 1300px)">
@@ -48,17 +49,96 @@
       <div id="weather-details">
         <section id="temperature" class="tile">
           <h3>Temperature</h3>
-          <img id="temp-gauge" class="detail-gauge" alt="a clock with the future temps" src="./images/temp-gauge.png">
+          <!--Dial for Temperature-->
+          <div class="component">
+            <p class="o0 outer">51</p>
+            <p class="o1 outer">53</p>
+            <p class="o2 outer">55</p>
+            <p class="o3 outer">57</p>
+            <p class="o4 outer">58</p>
+            <p class="o5 outer">57</p>
+            <p class="o6 outer">58</p>
+            <p class="o7 outer">58</p>
+            <p class="o8 outer">55</p>
+            <p class="o9 outer">53</p>
+            <p class="o10 outer">52</p>
+            <div class="inner"></div>
+            <div class="slider i0"></div>
+            <p class="i0 ib">0</p>
+            <p class="i1 ib">1</p>
+            <p class="i2 ib">2</p>
+            <p class="i3 ib">3</p>
+            <p class="i4 ib">4</p>
+            <p class="i5 ib">5</p>
+            <p class="i6 ib">6</p>
+            <p class="i7 ib">7</p>
+            <p class="i8 ib">8</p>
+            <p class="i9 ib">9</p>
+            <p class="i10 ib">10</p>
+            <div class="center">&deg;F</div>
+          </div>
         </section>
 
         <section id="percipitation" class="tile">
           <h3>Percipitation</h3>
-          <img id="percipitation-gauge" class="detail-gauge" alt="a clock with the future percipitation chances" src="./images/wet-gauge.png">
+          <!--Dial for Percipitation-->
+          <div class="component">
+            <p class="o0 outer">40</p>
+            <p class="o1 outer">20</p>
+            <p class="o2 outer">20</p>
+            <p class="o3 outer">20</p>
+            <p class="o4 outer">20</p>
+            <p class="o5 outer">10</p>
+            <p class="o6 outer">20</p>
+            <p class="o7 outer">20</p>
+            <p class="o8 outer">30</p>
+            <p class="o9 outer">20</p>
+            <p class="o10 outer">10</p>
+            <div class="inner"></div>
+            <div class="slider i0"></div>
+            <p class="i0 ib">0</p>
+            <p class="i1 ib">1</p>
+            <p class="i2 ib">2</p>
+            <p class="i3 ib">3</p>
+            <p class="i4 ib">4</p>
+            <p class="i5 ib">5</p>
+            <p class="i6 ib">6</p>
+            <p class="i7 ib">7</p>
+            <p class="i8 ib">8</p>
+            <p class="i9 ib">9</p>
+            <p class="i10 ib">10</p>
+            <div class="center">&#9730;<span class="small-percent">%</span></div>
         </section>
 
         <section id="conditions" class="tile">
           <h3>Conditions</h3>
-          <img id="condition-gauge" class="detail-gauge" alt="a clock with the future weather conditions" src="./images/condition-gauge.png">
+          <!--Dial for Conditions-->
+          <div class="component">
+            <p class="o0 outer">&#127785;</p>
+            <p class="o1 outer">&#9729;</p>
+            <p class="o2 outer">&#9729;</p>
+            <p class="o3 outer">&#9729;</p>
+            <p class="o4 outer">&#9729;</p>
+            <p class="o5 outer">&#9729;</p>
+            <p class="o6 outer">&#127780;</p>
+            <p class="o7 outer">&#127780;</p>
+            <p class="o8 outer">&#127783;</p>
+            <p class="o9 outer"><span class="moon">&#9214;</span>&#9729;</p>
+            <p class="o10 outer"><span class="moon">&#9214;</span>&#9729;</p>
+            <div class="inner"></div>
+            <div class="slider i0"></div>
+            <p class="i0 ib">0</p>
+            <p class="i1 ib">1</p>
+            <p class="i2 ib">2</p>
+            <p class="i3 ib">3</p>
+            <p class="i4 ib">4</p>
+            <p class="i5 ib">5</p>
+            <p class="i6 ib">6</p>
+            <p class="i7 ib">7</p>
+            <p class="i8 ib">8</p>
+            <p class="i9 ib">9</p>
+            <p class="i10 ib">10</p>
+            <div class="center"></div>
         </section>
       </div>
     </main>
