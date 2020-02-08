@@ -14,7 +14,7 @@
   .inner {
     width: 75%;
     height: 75%;
-    background-color: rgba(200,200,200);
+    background-color: #c8c8c8;
     border-radius: 90%;
     position: absolute;
   }
@@ -30,7 +30,7 @@
   }
   
   .box {
-    background-color: rgb(200, 200, 200);
+    background-color: #c8c8c8;
     display: block;
     position: absolute;
     width: 43%;
