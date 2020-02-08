@@ -146,3 +146,12 @@ h3 {
     margin: 0;
     height: 350px;
 }
+
+.component {
+    width: 150px;
+    height: 150px;
+}
+
+.outer {
+    font-size: 1.2em;
+}

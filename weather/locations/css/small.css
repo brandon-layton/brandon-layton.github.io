@@ -41,13 +41,20 @@ header {
 }
 
 .tile {
+    height: 300px;
     width: 90%;
+}
+
+.component {
+    width: 200px;
+    height: 200px;
 }
 
 #weather-temps {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: auto;
 }
 
 #temp {
