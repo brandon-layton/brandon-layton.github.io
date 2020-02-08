@@ -181,7 +181,7 @@
     display: inline-block;
     font-size: .5em;
     margin-left: -.5em;
-    transform: translateY(.05em);
+    transform: translateY(.1em);
   }
 
   .moon {
