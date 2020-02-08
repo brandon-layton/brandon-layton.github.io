@@ -184,5 +184,10 @@
 
   .moon {
     position: absolute;
+    z-index: 1;
     transform: translateY(-.2em);
+  }
+
+  .outer p {
+    z-index: 2;
   }
