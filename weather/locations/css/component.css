@@ -1,7 +1,6 @@
 
   .component{
     margin: auto;
-    margin-top: 15%;
     background-color: darkgray;
     position: relative;
     display: flex;
@@ -9,6 +8,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    transform: translate(0, 20%);
   }
         
   .inner {
