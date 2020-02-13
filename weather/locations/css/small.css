@@ -1,3 +1,9 @@
+/* variables */
+:root {
+    --component-size: 50vw;
+}
+
+/* style the logo and title */
 #logo {
     padding-left: 10px;
     height: 4em;
@@ -27,6 +33,7 @@ header {
     border-bottom: 1px solid;
 }
 
+/* style the geographic data */
 #location-data {
     padding: 10px;
     padding-left: 30px;
@@ -40,16 +47,16 @@ header {
     margin: 0;
 }
 
+/*style the tiles for the page */
 .tile {
-    height: 300px;
     width: 90%;
 }
 
-.component {
-    width: 200px;
-    height: 200px;
+h3 {
+    display: none;
 }
 
+/* style the current temperature tile */
 #weather-temps {
     display: flex;
     justify-content: center;
@@ -67,13 +74,13 @@ header {
 }
 
 #high {
-    color: red;
+    color: var(--high-color);
     font-size: 1.5em;
     margin-right: 10px;
 }
 
 #low {
-    color: royalblue;
+    color: var(--low-color);
     font-size: 1.5em;
     margin-left: 10px;
 }
@@ -91,15 +98,7 @@ header {
     display: none;
 }
 
-h3 {
-    display: none;
-}
-
-footer {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-}
-
+/* style footer for different menu settings*/
 .small-footer {
     margin-bottom: 30px;
 }
@@ -108,8 +107,9 @@ footer {
     margin-bottom: 108px;
 }
 
+/* style nav menu for small devices */
 nav ul li {
-    background-color: #a6a6a8;
+    background-color: var(--accent-color);
     line-height: 25px;
     border: 1px solid;
     border-bottom: unset;
@@ -143,5 +143,4 @@ nav ul {
 .shown ul li {
     display: block;
     width: 100%;
-    /* background-color: ivory; */
 }

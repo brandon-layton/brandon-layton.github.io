@@ -1,3 +1,9 @@
+/* declare variables for medium page */
+:root {
+    --component-size: 20vw;
+}
+
+/* style the nav bar */
 nav ul li:last-child {
     display: none;
 }
@@ -37,17 +43,7 @@ nav ul li {
     color: inherit;
 }
 
-nav ul li:hover {
-    background-color: #031927;
-    color: #a6a6a8;
-}
-
-footer {
-    bottom: 0;
-    height: 3em;
-    border: 1px solid;
-}
-
+/* make the logo and site name look good */
 #logo {
     padding-left: 10px;
     height: 5em;
@@ -72,6 +68,7 @@ footer {
     margin: 0;
 }
 
+/* location info for current city */
 #location-name {
     font-size: 2.3em;
     margin-top: 20px;
@@ -86,6 +83,14 @@ footer {
     width: 100%;
 }
 
+/*style the tiles for the page */
+.tile {
+    width: 32%;
+    margin: 0;
+    height: fit-content;
+}
+
+/* style the current temperature tile */
 #weather-temps {
     width: 95%;
     margin: auto;
@@ -101,7 +106,7 @@ footer {
 }
 
 #high {
-    color: #ff0000;
+    color: var(--high-color);
     display: inline;
     font-size: 2.5em;
     position: relative;
@@ -109,7 +114,7 @@ footer {
 }
 
 #low {
-    color: #0000ff;
+    color: var(--low-color);
     display: inline;
     font-size: 2.5em;
     position: relative;
@@ -128,6 +133,7 @@ footer {
     margin: 2em;
 }
 
+/* style the future weather tiles */
 #weather-details {
     display: flex;
     align-items: stretch;
@@ -138,18 +144,9 @@ footer {
     padding-bottom: 1em;
 }
 
-h3 {
-    margin-top: 0;
-}
-.tile {
-    width: 32%;
-    margin: 0;
-    height: 350px;
-}
-
+/*  style component for specific veiw port */
 .component {
-    width: 150px;
-    height: 150px;
+    transform: translateY(10%);
 }
 
 .outer {
