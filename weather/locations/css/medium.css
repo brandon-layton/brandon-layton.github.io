@@ -145,10 +145,6 @@ nav ul li {
 }
 
 /*  style component for specific veiw port */
-.component {
-    transform: translateY(10%);
-}
-
 .outer {
     font-size: 1.2em;
 }
