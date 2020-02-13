@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Brandon Layton">
     <meta name="description" content="Design principles document">
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">      
+    <!-- css sheets -->
     <link rel="stylesheet" type="text/css" href="./css/default.css">
     <link rel="stylesheet" type="text/css" href="./css/component.css">
     <link rel="stylesheet" type="text/css" href="./css/small.css" media="(max-width: 700px)">
@@ -17,11 +19,15 @@
   </head>
   <body>
     <header>
+      
+        <!-- Site Branding -->
         <img id="logo" class="inline-logo" src="/images/weather-icon.png" alt="cloud with snow">
         <div id="title-bar" class="inline-logo">
           <h1 id="title">Climate Check</h1>
           <p id="tagline">Check in a snap!</p>
         </div>
+
+      <!-- Navigation Menu -->
       <nav id="navbar" class="hidden">
         <ul>
           <li id="home-link"><a class="nav-link" href="index.html">Home</a></li>
@@ -30,13 +36,16 @@
           <li><a id="icon" class="nav-link" href="javascript:void(0);" onclick="responsiveMenu()">&#9776; Menu</a></li>
         </ul>
       </nav>
+
     </header>
     <main>
+      <!-- Location Data -->
       <div id="location-data">
         <h2 id="location-name">Preston</h2>
         <p id="gps"><span class="bold">Gps: </span>42.543, 111.5231</p>
       </div>
       
+        <!-- current weather tile -->
         <section id="weather-temps" class="tile">
 				  <p id="high"><span id="displayedHigh">58</span>&deg;F</p>
           <h3 id="temp"><span id="displayedTemp">51</span>&deg;F</h3>
@@ -46,10 +55,12 @@
           <p id="wind-gusts" class="wind">Gusts: <span id="displayedGusts">8</span>mph</p>
         </section>
       
+        <!-- tiles for weather forecast -->
       <div id="weather-details">
+
+        <!--Dial for Temperature-->
         <section id="temperature" class="tile">
           <h3>Temperature</h3>
-          <!--Dial for Temperature-->
           <div class="component">
             <div class="o0 outer"><p>51</p></div>
             <div class="o1 outer"><p>53</p></div>
@@ -81,9 +92,9 @@
           </div>
         </section>
 
+        <!--Dial for Percipitation-->
         <section id="percipitation" class="tile">
           <h3>Percipitation</h3>
-          <!--Dial for Percipitation-->
           <div class="component">
             <div class="o0 outer"><p>40</p></div>
             <div class="o1 outer"><p>20</p></div>
@@ -115,9 +126,9 @@
           </div>
         </section>
 
+        <!--Dial for Conditions-->
         <section id="conditions" class="tile">
           <h3>Conditions</h3>
-          <!--Dial for Conditions-->
           <div class="component">
             <div class="o0 outer"><p>&#127785;</p></div>
             <div class="o1 outer"><p>&#9729;</p></div>
@@ -148,13 +159,19 @@
             <div class="center"></div>
           </div>
         </section>
+
       </div>
     </main>
+
+    <!-- footer -->
     <footer id="footer" class="small-footer">
         <p class="copyr">&copy; <span id="currentyear"></span> | Brandon Layton | <a href=" https://developer.mozilla.org/en-US/">MDN documentation site</a> | BYU-Idaho</p>
         <p class="last-update">Last Updated: <span id="modified"></span></p>
     </footer>
+
+    <!-- load javascript after document loads -->
     <script src="/weather/locations/js/responsive-menu.js"></script>
     <script src="/js/date.js"></script>
+
  </body>
 </html>
