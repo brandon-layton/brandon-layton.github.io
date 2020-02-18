@@ -6,17 +6,62 @@
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Brandon Layton">
     <meta name="description" content="progressive loading of images">
+    <link rel="stylesheet" type="text/css" href="./css/default.css">
+
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">     
   </head>
   <body>
+    <header>
+        <h1>Progressive Loading Images</h1>
+    </header>
     <main>
-        <header>
-            <h1>Progressive Loading Images</h1>
-            <p>https://send.firefox.com/download/e00b1e2f1ca688ea/#Fbq8l6k-PAono5QVhw2yEw</p>
-        </header>
-        <img >
+
+        <!--snow image-->
+        <picture>
+            <source media="(max-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/snow-small.jpg">
+            <source media="(min-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/snow-large.jpg">
+            <img src="./images/placeholder.jpg" alt="snow">
+        </picture>
+
+        <!--fog image-->
+        <picture>
+            <source media="(max-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/fog-small.jpg">
+            <source media="(min-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/fog-large.jpg">
+            <img src="./images/placeholder.jpg" alt="fog">
+        </picture>
+
+        <!--clear image-->
+        <picture>
+            <source media="(max-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/clear-small.jpg">
+            <source media="(min-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/clear-large.jpg">
+            <img src="./images/placeholder.jpg" alt="clear">
+        </picture>
+
+        <!--rain image-->
+        <picture>
+            <source media="(max-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/rain-small.jpg">
+            <source media="(min-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/rain-large.jpg">
+            <img src="./images/placeholder.jpg" alt="rain">
+        </picture>
+
+        <!--clouds image-->
+        <picture>
+            <source media="(max-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/clouds-small.jpg">
+            <source media="(min-width: 700px)" srcset="./images/placeholder.jpg" data-src="./images/clouds-large.jpg">
+            <img src="./images/placeholder.jpg" alt="clouds">
+        </picture>
     </main>
- </body>
- <script src="./js/img-optimize.js" defer></script>
+
+    <!-- footer -->
+    <footer id="footer" class="small-footer">
+        <p class="copyr">&copy; <span id="currentyear"></span> | Brandon Layton | <a href=" https://developer.mozilla.org/en-US/">MDN documentation site</a> | BYU-Idaho</p>
+        <p class="last-update">Last Updated: <span id="modified"></span></p>
+    </footer>
+
+    <!-- javascript -->
+    <script src="./js/img-optimize.js" defer></script>
+    <script src="/js/date.js"></script>
+
+  </body>
 </html>
