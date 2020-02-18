@@ -43,17 +43,28 @@ header {
 
 /* stylize the piture elements */
 picture{
-    margin: 50px;
-
+    display: block;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5px;
+    border: 1px solid black;
 }
 
 img {
     display: block;
-    width: 95%;
-    max-width: 1000px;
-    padding: 5px;
-    border: 1px solid black;
-    margin: auto;
+    width: 100%;
+}
+
+.blur {
+    filter: blur(0.5em);
+}
+  
+.clear {
+    filter: blur(0em);
+    transition: filter 1s;
 }
 
 /* default style for footer */
