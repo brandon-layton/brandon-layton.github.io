@@ -12,6 +12,20 @@ const loadImages = (image) => {
 };
 
 //call load images for each image
-imagesToLoad.forEach((source) => {
-    loadImages(source);
-  });
+if('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((items, observer) => {
+      items.forEach((item) => {
+        if(item.isIntersecting) {
+          loadImages(item.target);
+          observer.unobserve(item.target);
+        }
+      });
+    });
+    imagesToLoad.forEach((source) => {
+      observer.observe(source);
+    });
+  } else {
+    imagesToLoad.forEach((source) => {
+      loadImages(source);
+    });
+  }
