@@ -38,6 +38,7 @@ header {
     display: inline-block;
     font-weight: 600;
     width: 100%;
+    border: 1px solid black;
     text-align: center;
 }
 
