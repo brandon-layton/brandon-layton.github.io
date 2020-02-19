@@ -91,7 +91,7 @@ nav ul li:hover {
 
 /* default style for footer */
 footer {
-    background-color: #a6a6a8;
+    background-color: var(--accent-color);
     text-align: center;
     margin: 0;
     border: 1px solid;
