@@ -1,3 +1,8 @@
+/****************************************************************************
+ * WARNING THIS CODE IS IN "functions.js" USE THAT INSTEAD OF THIS
+ * THIS IS DEPRECATED AND IS NOT UPDATED ANYMORE
+ ****************************************************************************/
+
 //declare variables and set them as the dates I am going to use
 var current = new Date();
 var modified = new Date(document.lastModified);

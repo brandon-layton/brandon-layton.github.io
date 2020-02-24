@@ -5,6 +5,9 @@
 
 /* variables */
 :root {
+    /* For some reason the validator sees the variables as errors; 
+    this is not correct, they are perfectly valid. 
+    see 'https://developer.mozilla.org/en-US/docs/Web/CSS/--*' */
     --main-bg-color: #cfdbd5;
     --default-text-color: #031927;
     --accent-color: #a6a6a8;
