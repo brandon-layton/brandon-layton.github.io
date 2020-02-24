@@ -80,7 +80,7 @@ nav ul li:hover {
 /* make default value for backgrounf picture */
 #weather-image {
     background-size: cover;
-    opacity: 100%;
+    padding-top: 20px;
 }
 
 /* make the default values for tile and contents */
