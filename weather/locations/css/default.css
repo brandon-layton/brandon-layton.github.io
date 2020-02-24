@@ -77,8 +77,13 @@ nav ul li:hover {
     color: var(--accent-color);
 }
 
-/* make the default values for tile and contents */
+/* make default value for backgrounf picture */
+#weather-image {
+    background-size: cover;
+    opacity: 100%;
+}
 
+/* make the default values for tile and contents */
 #temp {
     font-weight: unset;
 }
@@ -90,6 +95,7 @@ nav ul li:hover {
     border-radius: 15px;
     text-align: center;
     padding: 10px;
+    opacity: 75%;
 }
 
 /* default style for footer */

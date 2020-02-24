@@ -140,47 +140,47 @@ z-index: -1;
 /********************************
 * set postitions for the inner numbers
 ********************************/
-.i0 {
+.i1 {
   transform: translateY(var(--inside-position));
 }
 
-.i1 {
+.i2 {
   transform: rotate(30deg) translateY(var(--inside-position)) rotate(-30deg);
 }
 
-.i2 {
+.i3 {
   transform: rotate(60deg) translateY(var(--inside-position)) rotate(-60deg);
 }
 
-.i3 {
+.i4 {
   transform: rotate(90deg) translateY(var(--inside-position)) rotate(-90deg);
 }
 
-.i4 {
+.i5 {
   transform: rotate(120deg) translateY(var(--inside-position)) rotate(-120deg);
 }
 
-.i5 {
+.i6 {
   transform: rotate(150deg) translateY(var(--inside-position)) rotate(-150deg);
 }
 
-.i6 {
+.i7 {
   transform: rotate(180deg) translateY(var(--inside-position)) rotate(-180deg);
 }
 
-.i7 {
+.i8 {
   transform: rotate(210deg) translateY(var(--inside-position)) rotate(-210deg);
 }
 
-.i8 {
+.i9 {
   transform: rotate(240deg) translateY(var(--inside-position)) rotate(-240deg);
 }
 
-.i9 {
+.i10 {
   transform: rotate(270deg) translateY(var(--inside-position)) rotate(-270deg);
 }
 
-.i10 {
+.i11 {
   transform: rotate(300deg) translateY(var(--inside-position)) rotate(-300deg);
 }
 
@@ -189,47 +189,47 @@ z-index: -1;
 * numbers/pictures/icons
 ********************************/
 
-.o0 {
+.o1 {
   transform: rotate(0deg) translateY(var(--outside-position)) rotate(-0deg);
 }
 
-.o1 {
+.o2 {
   transform: rotate(30deg) translateY(var(--outside-position)) rotate(-30deg);
 }
 
-.o2 {
+.o3 {
   transform: rotate(60deg) translateY(var(--outside-position)) rotate(-60deg);
 }
 
-.o3 {
+.o4 {
   transform: rotate(90deg) translateY(var(--outside-position)) rotate(-90deg);
 }
 
-.o4 {
+.o5 {
   transform: rotate(120deg) translateY(var(--outside-position)) rotate(-120deg);
 }
 
-.o5 {
+.o6 {
   transform: rotate(150deg) translateY(var(--outside-position)) rotate(-150deg);
 }
 
-.o6 {
+.o7 {
   transform: rotate(180deg) translateY(var(--outside-position)) rotate(-180deg);
 }
 
-.o7 {
+.o8 {
   transform: rotate(210deg) translateY(var(--outside-position)) rotate(-210deg);
 }
 
-.o8 {
+.o9 {
   transform: rotate(240deg) translateY(var(--outside-position)) rotate(-240deg);
 }
 
-.o9 {
+.o10 {
   transform: rotate(270deg) translateY(var(--outside-position)) rotate(-270deg);
 }
 
-.o10 {
+.o11 {
   transform: rotate(300deg) translateY(var(--outside-position)) rotate(-300deg);
 }
 

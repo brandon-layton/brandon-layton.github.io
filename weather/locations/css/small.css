@@ -47,6 +47,27 @@ header {
     margin: 0;
 }
 
+/* background images for behind tiles */
+.rain {
+    background-image: url("../images/rain-small.jpg");
+}
+
+.snow {
+    background-image: url("../images/snow-small.jpg");
+}
+
+.clouds {
+    background-image: url("../images/clouds-small.jpg");
+}
+
+.clear {
+    background-image: url("../images/clear-small.jpg");
+}
+
+.fog {
+    background-image: url("../images/fog-small.jpg");
+}
+
 /*style the tiles for the page */
 .tile {
     width: 90%;
