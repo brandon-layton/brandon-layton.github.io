@@ -14,10 +14,25 @@ document.addEventListener("DOMContentLoaded", function(){
       const menuButton = document.querySelector("#menu-button");
       menuButton.addEventListener('click', responsiveMenu);
 
+    //Set Temps function
+      //variables required by function
+      let current = 31;
+      let low = 22;
+      let high = 35;
+      //call setTemps function
+      setTemps(current, low, high);
+
+    //Set Wind function
+      //variables required by function
+      let wind = 10.98
+      let gust = 24
+      //call setWind function
+      setWind(wind, gust);
+
     //Wind Chill
       //Variables for windchill function
-      let temp = 31;
-      let speed = 5;
+      let temp = current;
+      let speed = wind;
       //call windchill
       buildWC(speed, temp);
 
@@ -91,7 +106,45 @@ function setDate() {
     + mDay + '/' + mYear + ' ' + mHour + ':' + mMinute + '.' + mSecond;
 
   console.log(`${modified}`);
-  console.groupEnd('\n');
+  console.groupEnd();
+}
+
+function setTemps(current, low, high)
+{
+  console.group("Initial Tempures");
+
+  //get the elements holding the relevant information
+  let currentElement = document.getElementById("temp");
+  let lowElement = document.getElementById("low");
+  let highElement = document.getElementById("high");
+
+  //set the temps
+  currentElement.innerHTML = current;
+  console.log(`Current Temp is set to ${current}`);
+  
+  lowElement.innerHTML = low;
+  console.log(`Low Temp set to ${low}`);
+  
+  highElement.innerHTML = high;
+  console.log(`High Temp is set to ${high}`);
+  console.groupEnd();
+}
+
+function setWind(speed, gust)
+{
+  console.group("Initial Tempures");
+
+  //get the elements holding the relevant information
+  let speedElement = document.getElementById("displayedWind");
+  let gustElement = document.getElementById("displayedGusts");
+
+  //set the winds
+  speedElement.innerHTML = speed;
+  console.log(`Wind Speed is set to ${speed}`);
+  
+  gustElement.innerHTML = gust;
+  console.log(`Current Gusts are set to ${gust}`);
+  console.groupEnd();
 }
 
 /****************************************************************************
